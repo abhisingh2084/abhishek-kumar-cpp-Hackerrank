@@ -53,6 +53,6 @@ odd
     throw invalid_argument("invalid input");
     string num[]={"one","two","three","four","five","six","seven","eight","nine"};
     for(n=a;n<=b;++n)
-    { cout<<((a<=9)?num[n]:((n%2==0)?"even":"odd"));}
+    { cout<<((a<=9)?num[n]:((n%2==0)?"even":"odd"))<<endl;}
   return 0;
   }
